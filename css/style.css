@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    background-image: url(../imagenes/fondo.jpg);
+}
+.nav-link{
+    font-family:'PT Serif', serif;
+    font-size: 30px;
+    
+} 
+.carousel-item{
+    height: 100%;
+    transition: all 1s;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+    padding-right: 35px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+h1{
+    font-family: 'PT Serif', serif;
+    padding: 30px 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    padding: 20px 20px;
+    font-size: large;
+    
+}
+.clases{
+    padding: 50px;
+}
+.card-title{
+    font-family:'PT Serif', serif ;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.card-group{
+    padding: 50px;
+}
+form{
+    border: 1px solid rgb(44, 43, 43);
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 40px;
+
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+textarea{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    min-height: 100px;
+    max-height: 200px;
+}
+#boton{
+    background-color: rgb(32, 32, 32);
+    color: gray;
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'PT Serif', serif ;
+}
+footer{
+    background-color: rgb(49, 49, 49);
+}
+h2{
+    color: rgb(149, 143, 143);
+    font-size: 20px;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.tel{
+   
+.logopie{
+    
+.redes{
+
+
+}
+ 
