@@ -1,0 +1,127 @@
+body {
+  background-color: antiquewhite;
+  background-image: url(imagenes/fondo.jpg);
+}
+
+.nav-link {
+  font-family: 'PT Serif, serif';
+  font-size: 30px;
+}
+
+.carousel-item {
+  height: 100%;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  padding-right: 35px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+h1 {
+  font-family: 'PT Serif, serif';
+  padding: 30px 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  padding: 20px 20px;
+  font-size: large;
+}
+
+.clases {
+  padding: 50px;
+}
+
+.card-title {
+  font-family: 'PT Serif, serif';
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-group {
+  padding: 50px;
+}
+
+form {
+  border: 1px solid #2c2b2b;
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+}
+
+textarea {
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+#boton {
+  background-color: #313131;
+  color: gray;
+  padding: 15px;
+  font-size: 25px;
+  font-family: 'PT Serif, serif';
+}
+
+footer {
+  background-color: #313131;
+}
+
+h2 {
+  color: #958f8f;
+  font-size: 20px;
+}
+
+.pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
