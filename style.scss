@@ -84,3 +84,19 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
+@media screen and (min-width: 360px){
+    .flex{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .flex{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }    
+}
