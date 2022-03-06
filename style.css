@@ -37,11 +37,6 @@ h1 {
   text-decoration: underline;
 }
 
-p {
-  padding: 20px 20px;
-  font-size: large;
-}
-
 .clases {
   padding: 50px;
 }
@@ -98,31 +93,21 @@ textarea {
   font-family: 'PT Serif, serif';
 }
 
-footer {
-  background-color: #313131;
+.pie {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 h2 {
   color: #958f8f;
   font-size: 20px;
-}
-
-.pie {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 @media screen and (min-width: 360px) {
