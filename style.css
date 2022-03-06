@@ -130,6 +130,14 @@ h2 {
         -ms-flex-align: center;
             align-items: center;
   }
+  body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  form {
+    width: auto;
+    margin: 10px;
+  }
 }
 
 @media screen and (min-width: 768px) {
