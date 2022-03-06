@@ -1,5 +1,6 @@
 $fontFamily: 'PT Serif, serif';
 
+
 body{
     background-color: antiquewhite;
     background-image: url(imagenes/fondo.jpg);
@@ -104,5 +105,9 @@ h2{
         display: flex;
         flex-direction: row;
         align-items: stretch;
+    }
+    form{
+        width: 500px;
+        margin: 20px 400px;
     }
 }
