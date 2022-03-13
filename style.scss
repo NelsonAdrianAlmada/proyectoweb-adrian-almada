@@ -20,6 +20,7 @@ body{
 .flex{
     display: flex;
     justify-content: space-evenly;
+    margin: 20px 20px;
 }
 h1{
     font-family: $fontFamily;
@@ -98,6 +99,9 @@ h2{
         width: auto;
         margin: 10px;
     }
+    .logopie img{
+        height: 100px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -109,5 +113,8 @@ h2{
     form{
         width: 500px;
         margin: 20px 400px;
+    }
+    .logopie img{
+        height: 130px;
     }
 }
